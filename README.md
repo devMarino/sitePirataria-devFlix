@@ -15,7 +15,7 @@ Desenvolver um site moderno e responsivo utilizando:
 
 🧠 Tecnologias Utilizadas
 - HTML5
-- - CSS3
+- CSS3
 - CSS Grid
 - Flexbox
 - Media Queries
@@ -28,24 +28,10 @@ Desenvolver um site moderno e responsivo utilizando:
 - Layout adaptável para: 📱 Celular 💻 Tablet 🖥️ Desktop
 - Rodapé com autoria e link para GitHub
 
-- 🏗️ Estrutura do Projeto
-- devFlix/
-│
-├── index.html
-│
-└── src/
-    ├── images/
-        ├── pipoca.png      
-    └── styles/
-        ├── GlobalStyle.css
-        ├── header.css
-        ├── sidebar.css
-        ├── main.css
-        ├── footer.css
-        └── responsive.css
-  
 Clone o repositório:
 - git clone https://github.com/devMarino/site-devFlix.git
+
 Abra o index.html no navegador.
+
 🔗 Deploy
 - https://devmarino.github.io/site-devFlix/
