@@ -1,0 +1,76 @@
+/* ===== TABLET ===== */
+
+@media (max-width: 1024px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "header"
+        "sidebar"
+        "main"
+        "footer";
+    }
+
+    #sidebar {
+        border-right: none;
+        border-bottom: 4px solid #000;
+    }
+
+    #sidebar ul {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }   
+    .card {
+    aspect-ratio: 3/ 4;
+    grid-template-rows: auto auto;
+}
+
+}
+
+/* ===== CELULAR ===== */
+@media (max-width: 600px) {
+
+    #cabecalho {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .cabecalho-centro {
+        margin: 0;
+    }
+
+    #sidebar ul {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }   
+
+    
+    #sidebar ul li {
+        font-size: 15px;
+    }
+    #sidebar h2 {
+        font-size: 2em;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3 / 4;
+        object-fit: contain;
+    }
+    .card h3 {
+        font-size: 20px;
+    }
+
+}
