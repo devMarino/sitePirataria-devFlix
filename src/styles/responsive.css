@@ -67,7 +67,7 @@
         width: 100%;
         height: auto;
         aspect-ratio: 3 / 4;
-        object-fit: contain;
+        object-fit: cover;
     }
     .card h3 {
         font-size: 20px;
